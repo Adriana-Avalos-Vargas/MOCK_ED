@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvaluaData</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            margin: 10px 0;
+        }
+
+        .container-vertical {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .vertical-box {
+            flex: 1;
+            margin: 0 10px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+        }
+
+        /* Ajustes para la imagen y barra de búsqueda */
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .header-image img {
+            max-width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+
+ <!--start the body-->
+ <body>
+    <!--Define a fluid container that adjust to any screen size-->
+    <div class="container.fluid">
+        <!--Add another container to "center" content-->
+        <div class = "container-fluid">
+
+
+    <div class="container">
+
+        <!-- Sección de título con imagen a la izquierda y barra de búsqueda a la derecha -->
+        <div class="p-3 mb-2 bg-info text-white">
+        <div class="header-section">
+            <!-- Imagen del lado izquierdo -->
+            <div class="header-image">
+                <img src="imagenes\LOGO_LIBRE.png" alt="Logo">
+            </div>
+            <!-- Add a title page and a square-->
+            
+                <header>
+                    <h1 class="display-4"> EvaluaData </h1>
+                    <h2> Centro de Certificación y Ciencia de Datos</h2>
+                </header>
+            
+             <!-- Imagen del lado derecho -->
+             <div class="header-image">
+                <img src="imagenes\LOGO_LIBRE2.png" alt="Logo Derecho">
+            </div>
+
+        </div>
+        </div>
+
+        <!-- Navbar -->
+         
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                     <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="infoevaluadata.html">Conócenos <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="capacitacion.html">Capacitación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consultoria.html">Consultoria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="plataforma.html">Plataforma</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="historias.html">Historias</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Certificaciones SEP CONOCER
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="conocer.html">El CONOCER</a>
+                                <a class="dropdown-item" href="EC301.html">EC0301</a>
+                                <a class="dropdown-item" href="EC217.html">EC0217</a>
+                                <a class="dropdown-item" href="EC366.html">EC0366</a>
+                                <a class="dropdown-item" href="EC076.html">EC076</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-info" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+    <!--End of section of navigation bar-->
+    <!--FIJO-->
+    
+    <!-- Encabezado -->
+    <div class="header">
+        <h1 class="text-info">Capacitación</h1>
+        <p class="lead"> "La capacitación es el punte que te lleva de donde estás a adonde quieres estar". Jim Rohn</p>
+    </div>
+    
+<br>
+
+    <!-- Sección de Introducción -->
+    <div class="container mt-4">
+        <p>En nuestro centro, ofrecemos programas de capacitación diseñados para prepararte ante los retos del mercado laboral 
+            moderno. Nos enfocamos en tres líneas principales de formación, cada una diseñada para potenciar tus habilidades y 
+            brindarte las herramientas necesarias para destacar en el ámbito laboral.
+
+        </p>
+    </div>
+
+    
+<br>
+    <!-- Container dividido en tres secciones -->
+    <div class="container-vertical my-4">
+        <div class="vertical-box">
+            <h5 class="text-info">Alineación para los estándares SEP-CONOCER</h5>
+            <p>La certificación de competencias es clave para validar y demostrar tus habilidades en el entorno laboral actual. 
+                En nuestra línea de **Alineación y certificación**, preparamos a los participantes para obtener certificaciones 
+                oficiales de la SEP-CONOCER en estándares como:
+                <ul>
+                    <li>EC0301: Diseño de cursos presenciales para formación del capital humano </li>
+                    <li>EC0217.01: Impartición de cursos de formación presencial</li>
+                    <li>EC0076: Evaluación de la competencia de candidatos</li>
+                    <li>EC0366: Desarrollo de cursos en línea</li>
+            </ul>
+            Estas certificaciones te permiten destacar en sectores como la educación, consultoría y gestión de proyectos, 
+            asegurando que tus competencias estén alineadas con los estándares nacionales e internacionales de calidad.
+            </p>
+    
+        </div>
+        <div class="vertical-box">
+            <h5 class="text-info">Capacitación en ciencia de datos, inteligencia artificial y business intelligence</h5>
+            <p>El mundo actual está impulsado por los datos. Por ello, hemos desarrollado una línea de capacitación en 
+                ciencia de datos, business intelligence, análisis de datos, dashboards, inteligencia artificial y programación,
+                entre otros. Nuestros cursos te brindan las herramientas técnicas y prácticas necesarias para:
+                <ul>
+                    <li> Analizar y transformar datos en información valiosa para la toma de decisiones</li>
+                    <li> Crear dashboards y visualizaciones que impulsen la inteligencia empresarial</li>
+                    <li> Implementar soluciones de inteligencia artificial en proyectos empresariales</li>
+                </ul>
+                Ya seas un profesional que busca mejorar su perfil técnico o una empresa que desea capacitar a sus equipos, 
+                nuestros cursos te proporcionarán conocimientos clave para adaptarte a la transformación digital.
+
+            </p>
+        </div>
+        <div class="vertical-box">
+            <h5 class="text-info">Asesoría y formación para jóvenes en áreas STEM</h5>
+            <p>Estamos comprometidos con el futuro. Por ello, ofrecemos asesoría especializada para jóvenes que desean adentrarse 
+                en áreas STEM (Ciencia, Tecnología, Ingeniería y Matemáticas). Nuestro enfoque es fomentar el interés y las 
+                habilidades en estas áreas, brindando orientación personalizada y recursos para que los jóvenes puedan:
+                <ul>
+                    <li> Identificar oportunidades en carreras de tecnología y ciencias </li>
+                    <li> Desarrollar proyectos en áreas de robótica, programación, matemáticas y más </li>
+                    <li> Prepararse para un futuro académico y profesional en campos de alta demanda </li>
+                </ul>
+                Nuestros programas están diseñados para motivar a las nuevas generaciones a explorar estas disciplinas, asegurando
+                que cuenten con el conocimiento y las herramientas necesarias para sobresalir en el mundo laboral del mañana.
+                </p>
+        </div>
+    </div>
+
+<br>
+  
+    <div class="container mt-4">
+
+        <p>Nuestras capacitaciones están disponibles en formato presencial y en línea, brindando flexibilidad para que elijas la 
+            opción que mejor se adapte a tus necesidades y estilo de aprendizaje. Además, tendrás acceso a nuestra plataforma de 
+            estudios, que es amigable y adaptable a cualquier dispositivo, lo que te permitirá avanzar a tu propio ritmo y en el 
+            horario que más te convenga.
+        </p>
+        <p>
+            Al finalizar cualquiera de nuestros cursos, obtendrás acceso exclusivo a nuestro foro de graduados, un espacio 
+            diseñado para hacer networking, resolver dudas y compartir experiencias con otros profesionales. Este foro es un 
+            recurso valioso para mantenerte conectado y seguir creciendo profesionalmente.
+        </p>
+        <p>    
+            También, entendemos que cada empresa o individuo tiene necesidades particulares, por lo que diseñamos cursos a medida,
+            asegurando que la capacitación se ajuste a los objetivos específicos de cada organización o persona, garantizando un 
+            aprendizaje efectivo y relevante.
+        </p>
+    </div>
+
+
+<br>
+    <!-- Botones de Acción -->
+    <div class="cta">
+        <a href="https://wa.me/tu_numero" class="btn btn-success btn-lg" target="_blank">Contactar por WhatsApp</a>
+        <a href="tu_enlace_de_compra" class="btn btn-primary btn-lg">Proceder a la Compra</a>
+    </div>
+
+
+
+    <!--FIJO-->  
+    <!--CIERRE DE LA PÁGINA-->
+    <div class="container mt-5 bg-info text-white p-2"> 
+        <div class="row align-items-center">
+            <!-- Espacio en el lado izquierdo -->
+            <div class="col-md-4 text-center">
+                <img src="imagenes\LOGO_LIBRE.png" alt="Logo" class=class="img-fluid" style="max-height: 80px;">
+                <p></p> <!-- Espacio vacío -->
+            </div>
+            
+            <!-- Imagen en el centro -->
+            <div class="col-md-4 text-center">
+                <div class="mb-3">
+                    <strong>Número de Permiso:</strong> 123456789
+                </div>
+                <div class="mb-3">
+                    <strong><a href="aviso_privacidad.html" class="text-white">Aviso de Privacidad</a></strong>
+                </div>
+                <div>
+                    <strong>Fecha de Actualización:</strong> 22 de octubre de 2024
+                </div>
+            </div>
+    
+            <!-- Secciones de texto en el lado derecho -->
+            <div class="col-md-4 text-center">
+                <img src="imagenes\LOGO_LIBRE2.png" alt="Logo" class=class="img-fluid" style="max-height: 80px;"> 
+            </div>
+        </div>
+        <footer class="bg-dark text-white text-center p-3">
+            <p>&copy; 2024 Evaluadata. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    
+
+
+
+ <!--End  of the fluid containers, do not errase-->
+    </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
